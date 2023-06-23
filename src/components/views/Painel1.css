@@ -1,0 +1,15 @@
+#painel1 {
+    display: flex;
+    align-items: justify;
+    text-align: justify;
+    font-family: 'script';
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 30vw;
+    padding-bottom: 32vw;
+    padding-left: 1vw;
+    font-size: 5vw;
+    color: whitesmoke;
+    
+
+  }
+  

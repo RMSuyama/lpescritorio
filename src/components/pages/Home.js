@@ -1,16 +1,19 @@
 import React from 'react';
-import Navbar from '../common/Navbar';
-import Citacao from '../views/citacao';
-import Countdown from '../views/countdown';
+import Navbar from '../common/Navbar/Navbar';
 import Painel from '../views/painel';
+import Mailme from '../services/mailme';
+import Footer from '../common/Footer/Footer';
+import Painel1 from '../views/Painel1';
+
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Citacao />
+      <Navbar />      
+      <Painel1 />
       <Painel />
-      <Countdown />
+      <Mailme />
+      <Footer />
     </div>
   );
 }

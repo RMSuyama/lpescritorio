@@ -1,18 +1,18 @@
 import React from 'react';
-import Navbar from '../common/Navbar';
-import Citacao from '../views/citacao';
-import Countdown from '../views/countdown';
+import Navbar from '../common/Navbar/Navbar';
 import Painel from '../views/painel';
 
-const Home = () => {
+
+const Profissionais = () => {
   return (
     <div>
-      <Navbar />
-      <Citacao />
+
+      <Navbar />      
+      <div>profissionais</div>
       <Painel />
-      <Countdown />
+
     </div>
   );
 }
 
-export default Home;
+export default Profissionais;
