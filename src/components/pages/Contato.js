@@ -7,7 +7,8 @@ const Contato = () => {
   return (
     <div>
 
-      <Navbar />      
+      <Navbar />  
+      <Contato />    
       <div>contato</div>
       <Painel />
 

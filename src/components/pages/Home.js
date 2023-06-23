@@ -4,6 +4,7 @@ import Painel from '../views/painel';
 import Mailme from '../services/mailme';
 import Footer from '../common/Footer/Footer';
 import Painel1 from '../views/Painel1';
+import Newsletter from '../common/newsletter';
 
 
 const Home = () => {
@@ -11,10 +12,10 @@ const Home = () => {
     <div>
       <Navbar />      
       <Painel1 />
-      <Painel />
-      <Mailme />
+      <Newsletter />
+      
       <Footer />
-    </div>
+      </div>
   );
 }
 

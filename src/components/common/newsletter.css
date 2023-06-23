@@ -1,0 +1,28 @@
+/* newsletter.css */
+
+.card.social-card {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 4vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: center;
+
+
+  }
+  
+  .form-label {
+    font-weight: bold;
+    
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  

@@ -1,15 +1,21 @@
 import React from 'react';
 import Navbar from '../common/Navbar/Navbar';
 import Painel from '../views/painel';
+import Blogview from '../views/blogview';
+import Footer from '../common/Footer/Footer';
+import Newsletter from '../common/newsletter';
 
 
 const Publicacoes = () => {
   return (
     <div>
 
-      <Navbar />      
-      <div>publicacoes</div>
-      <Painel />
+      <Navbar />
+      <Publicacoes />      
+      <Blogview />
+      <Newsletter />
+      <Footer />
+    
 
     </div>
   );

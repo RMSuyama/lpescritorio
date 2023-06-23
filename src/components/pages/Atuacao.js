@@ -1,6 +1,9 @@
 import React from 'react';
 import Navbar from '../common/Navbar/Navbar';
 import Painel from '../views/painel';
+import AreasAtuacao from '../views/AreasAtuacao.js';
+import Footer from '../common/Footer/Footer';
+import Newsletter from '../common/newsletter';
 
 
 const Atuacao = () => {
@@ -8,8 +11,10 @@ const Atuacao = () => {
     <div>
 
       <Navbar />      
-      <div>atuação</div>
-      <Painel />
+      <Atuacao />
+      <AreasAtuacao />
+      <Newsletter />
+      <Footer />
 
     </div>
   );
