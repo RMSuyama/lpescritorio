@@ -55,20 +55,20 @@ const Blogview = () => {
   ];
 
   return (
-    <div id="blogView" class="row row-cols-1 row-cols-md-3 g-4">
+    <div id="blogView" className="row row-cols-1 row-cols-md-3 g-4">
       {posts.map((post, index) => (
-        <div class="col" key={index}>
-          <div class="card h-100">
-            <img src={post.image} class="card-img-top" alt="Post Image" />
-            <div class="card-body">
-              <h5 class="card-title">{post.title}</h5>
-              <p class="card-text">{post.content}</p>
+        <div className="col" key={index}>
+          <div className="card h-100">
+            <img src={post.image} className="card-img-top" alt="Post Image" />
+            <div className="card-body">
+              <h5 className="card-title">{post.title}</h5>
+              <p className="card-text">{post.content}</p>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">{post.updated}</small>
+            <div className="card-footer">
+              <small className="text-body-secondary">{post.updated}</small>
 
             </div>
-              <a href={post.link} class="btn btn-primary">
+              <a href={post.link} className="btn btn-primary">
                 Ler mais
               </a>
 

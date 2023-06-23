@@ -11,26 +11,26 @@ import whatsappLogo from '../../../static/img/logos/whats.svg';
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="logo">
-              <img src={mala} alt="Manzo & Suyama" class="logo-img" />
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="logo">
+              <img src={mala} alt="Manzo & Suyama" className="logo-img" />
             </div>
-            <p class="tagline">Advocacia e Consultoria Jurídica</p>
+            <p className="tagline">Advocacia e Consultoria Jurídica</p>
           </div>
-          <div class="col-md-3">
-            <h4 class="footer-heading">Links</h4>
-            <ul class="footer-links">
+          <div className="col-md-3">
+            <h4 className="footer-heading">Links</h4>
+            <ul className="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/services">Serviços</a></li>
               <li><a href="/about">Sobre Nós</a></li>
               <li><a href="/contact">Contato</a></li>
             </ul>
           </div>
-          <div class="col-md-3">
-            <h4 class="footer-heading">Redes Sociais</h4>
+          <div className="col-md-3">
+            <h4 className="footer-heading">Redes Sociais</h4>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <img src={instagramLogo} alt="Instagram" className="social-icon" />
           </a>
@@ -47,12 +47,12 @@ const Footer = () => {
             <img src={whatsappLogo} alt="WhatsApp" className="social-icon" />
           </a>
           </div>
-          <div class="col-md-3">
-            <h4 class="footer-heading">Contato</h4>
-            <ul class="footer-contact">
-              <li><i class="fas fa-map-marker-alt"></i> Endereço: Rua Matheus Henrique de Carvalho, nº 61, Vila Ribeirópolis, Registro/SP</li>
-              <li><i class="fas fa-phone"></i> Telefone: (12) 3456-7890</li>
-              <li><i class="fas fa-envelope"></i> E-mail: contato@manzosuyama.com</li>
+          <div className="col-md-3">
+            <h4 className="footer-heading">Contato</h4>
+            <ul className="footer-contact">
+              <li><i className="fas fa-map-marker-alt"></i> Endereço: Rua Matheus Henrique de Carvalho, nº 61, Vila Ribeirópolis, Registro/SP</li>
+              <li><i className="fas fa-phone"></i> Telefone: (12) 3456-7890</li>
+              <li><i className="fas fa-envelope"></i> E-mail: contato@manzosuyama.com</li>
             </ul>
           </div>
         </div>
