@@ -1,15 +1,15 @@
-#painel1 {
-    display: flex;
-    align-items: justify;
-    text-align: justify;
-    font-family: 'script';
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    padding-top: 30vw;
-    padding-bottom: 32vw;
-    padding-left: 1vw;
+#painel1-title {
+    padding-top: 25vw;
+    color: white;
+    font-family: 'Spectral', serif;
     font-size: 5vw;
-    color: whitesmoke;
-    
-
+    padding-left: 2vw;
+  }
+  
+#painel1-text {
+    padding-left: 2vw;
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 3vw;
   }
   
