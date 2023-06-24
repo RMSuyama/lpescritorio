@@ -11,8 +11,8 @@ const Home = () => {
       <Navbar />      
       <Painel1 />
       <Newsletter />
-      
       <Footer />
+      
       </div>
   );
 }
