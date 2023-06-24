@@ -10,6 +10,7 @@ const Publicacoes = () => {
     <div>
 
       <Navbar />
+      <Publicacoes />      
       <Blogview />
       <Newsletter />
       <Footer />

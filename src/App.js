@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Rotas from '../src/components/routes/routes';
+import Routes from "../src/components/routes/routes";
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
 
-      <Rotas/>
+      <Routes/>
 
     </div>
   );

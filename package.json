@@ -11,7 +11,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.13.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
+=======
+    "react-scripts": "5.0.1",
+>>>>>>> parent of cfc426c (agora vai, encontrei o erro tava importando o próprio componente)
     "web-vitals": "^2.1.4"
   },
   "scripts": {
