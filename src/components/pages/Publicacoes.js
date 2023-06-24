@@ -3,6 +3,7 @@ import Navbar from '../common/Navbar/Navbar';
 import Blogview from '../views/blogview';
 import Footer from '../common/Footer/Footer';
 import Newsletter from '../common/newsletter';
+import Publititle from '../titles/publititle';
 
 
 const Publicacoes = () => {
@@ -10,6 +11,7 @@ const Publicacoes = () => {
     <div>
 
       <Navbar />
+      <Publititle />
       <Blogview />
       <Newsletter />
       <Footer />

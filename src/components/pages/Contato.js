@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../common/Navbar/Navbar';
 import Painel from '../views/painel';
+import Contitle from '../titles/contitle';
 
 
 const Contato = () => {
@@ -8,6 +9,7 @@ const Contato = () => {
     <div>
 
       <Navbar />  
+      <Contitle />
       <div>contato</div>
       <Painel />
 
