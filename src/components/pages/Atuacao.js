@@ -10,7 +10,6 @@ const Atuacao = () => {
     <div>
 
       <Navbar />      
-      <Atuacao />
       <AreasAtuacao />
       <Newsletter />
       <Footer />

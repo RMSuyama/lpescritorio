@@ -8,7 +8,6 @@ const Contato = () => {
     <div>
 
       <Navbar />  
-      <Contato />    
       <div>contato</div>
       <Painel />
 
