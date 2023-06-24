@@ -4,13 +4,11 @@ import AreasAtuacao from '../views/AreasAtuacao.js';
 import Footer from '../common/Footer/Footer';
 import Newsletter from '../common/newsletter';
 
-
 const Atuacao = () => {
   return (
     <div>
 
       <Navbar />      
-      <Atuacao />
       <AreasAtuacao />
       <Newsletter />
       <Footer />

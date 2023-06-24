@@ -10,7 +10,6 @@ const Profissionais = () => {
     <div>
 
       <Navbar /> 
-      <Profissionais />     
       <ProfissionaisL />
       <Newsletter />
       <Footer />
