@@ -2,20 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Navbar/Navbar.css';
-
+import logo from '../../../static/img/logos/logo sm.jpg';
 
 const Navbar = () => {
-
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">- SUYAMA & MANZO -</a>
+        <div>
+         <a className="navbar-brand" href="/"> <img src={logo} className="img" alt="..." />
+          </a>
+        </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-
             <li className="nav-item">
               <Link className="nav-link" to="/atuacao" style={{ color: 'black', textDecoration: 'none' }}>Áreas de Atuação</Link>
             </li>
@@ -31,10 +32,9 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/contato" style={{ color: 'black', textDecoration: 'none' }}>Contato</Link>
             </li>
-
           </ul>
         </div>
-      </div>          
+      </div>
     </nav>
   );
 };

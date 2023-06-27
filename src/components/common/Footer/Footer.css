@@ -1,50 +1,59 @@
-/* Footer.css */
-
 .footer {
-    font-family: 'Spectral', serif;
-    color: #000000;
-  }
-  
-
-  
-  
-  .footer-heading {
-    padding-top: 2vw;
-
-
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .footer-links,
-  .footer-contact {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 2vw;
-  }
-  
-  .footer-links li,
-  .footer-contact li {
-    margin-bottom: 5px;
-  }
-  
-  .social-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-    
-}
-  
-#nome{
-
-  padding-top: 3vw;
-
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
 }
 
-.tagline {
-  font-size: 14px;
-  opacity: 0.8;
+.footer-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-heading {
+  font-size: 18px;
   margin-bottom: 20px;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-contact i {
+  margin-right: 10px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#logo{
+  padding-bottom: 0vw;
+  width: 10vw;
+}
+
+#nome{
+  font-family: spectral, cursive;
+  font-weight: bold;
+}
+.tagline{
+  font-family: spectral, cursive;
+  font-size: medium;
 }

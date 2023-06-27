@@ -1,24 +1,26 @@
 import React from 'react';
 import '../Footer/Footer.css';
-import mala from '../../../static/img/briefcase-fill.svg';
 import instagramLogo from '../../../static/img/logos/insta.svg';
 import facebookLogo from '../../../static/img/logos/face.svg';
 import linkedinLogo from '../../../static/img/logos/linked.svg';
 import emailLogo from '../../../static/img/logos/email.svg';
 import whatsappLogo from '../../../static/img/logos/whats.svg';
+import logo from '../../../static/img/logos/logo sm.jpg';
 
 
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer footer-centered">
       <div className="container">
-        <div className="row">
-          <div className="col-md-3">
+        <div className="row align-items-center">
+          <div className="col-md-3 col-sm-6">
+          <a className="navbar-brand" href="/"> <img id="logo" src={logo} className="img" alt="..." />
+          </a>
             <h4 id="nome" >SUYAMA & MANZO</h4>
             <h4 className="tagline">Advocacia e Consultoria Jurídica</h4>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Links</h4>
             <ul className="footer-links">
               <li><a href="/">Home</a></li>
@@ -27,7 +29,7 @@ const Footer = () => {
               <li><a href="/contact">Contato</a></li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Redes Sociais</h4>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <img src={instagramLogo} alt="Instagram" className="social-icon" />
@@ -45,7 +47,7 @@ const Footer = () => {
             <img src={whatsappLogo} alt="WhatsApp" className="social-icon" />
           </a>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Contato</h4>
             <ul className="footer-contact">
               <li><i className="fas fa-map-marker-alt"></i> Endereço: Rua Matheus Henrique de Carvalho, nº 61, Vila Ribeirópolis, Registro/SP</li>

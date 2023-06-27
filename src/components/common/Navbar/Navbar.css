@@ -1,4 +1,11 @@
 .navbar {
     font-family: 'Spectral', serif;
-    padding: 2vw;
+    padding-left: 1vw;
+    margin-top: 1vw;
+
+  }
+
+  .img{
+    width: 5vw;
+    margin-top: -20px;
   }
