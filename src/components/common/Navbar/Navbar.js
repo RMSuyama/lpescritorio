@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/publicacoes" style={{ color: 'black', textDecoration: 'none' }}>Publicações</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contato" style={{ color: 'black', textDecoration: 'none' }}>Contato</Link>
+              <Link className="nav-link" to="/politicasdeprivacidade" style={{ color: 'black', textDecoration: 'none' }}>Políticas de Privacidade</Link>
             </li>
           </ul>
         </div>

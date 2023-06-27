@@ -5,7 +5,7 @@ import Profissionais from "../pages/Profissionais";
 import Vagas from "../pages/Vagas";
 import Publicacoes from "../pages/Publicacoes";
 import Atuacao from '../pages/Atuacao';
-import Contato from "../pages/Contato";
+import Politicasdeprivacidade from "../pages/Politicasdeprivacidade";
 
 
 const Rotas = () => {
@@ -18,7 +18,7 @@ const Rotas = () => {
         <Route path="/vagas" element={<Vagas />} />
         <Route path="/profissionais" element={<Profissionais />} />
         <Route path="/publicacoes" element={<Publicacoes />} />
-        <Route path="/contato" element={<Contato />} />
+        <Route path="/politicasdeprivacidade" element={<Politicasdeprivacidade />} />
 
       </Routes>
     </BrowserRouter>

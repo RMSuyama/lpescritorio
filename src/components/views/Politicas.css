@@ -1,0 +1,52 @@
+#main-card {
+    padding: 2vw;
+  }
+  
+  .card-body {
+    text-align: justify;
+    font-family: 'Spectral', cursive;
+  }
+  
+  .policy-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .policy-subheading {
+    color: #666;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Spectral', cursive;
+    font-weight: bold;
+
+  }
+  
+  #card1,
+  #card2,
+  #card3,
+  #card4 {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .policy-heading {
+    text-align: center;
+    font-family: 'Spectral', cursive;
+    font-weight: bold;
+  }
+  
+  #coleta-dados-heading,
+  #uso-armazenamento-heading,
+  #opcoes-consentimento-heading {
+    margin-top: 40px;
+  }
+  

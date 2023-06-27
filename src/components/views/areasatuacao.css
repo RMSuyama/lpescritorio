@@ -1,10 +1,12 @@
-.card-text{
-
-    font-family: "Spectral", serif;     
-}
-
-.card-title{
-
-    font-family: "Spectral", serif;     
+.card-title {
     font-weight: bold;
-}
+    font-family: 'Spectral', cursive;
+  }
+  
+  .card-text {
+    font-family: 'Spectral', cursive;
+  }
+
+  #areasAt{
+    margin: 2vw;
+  }
