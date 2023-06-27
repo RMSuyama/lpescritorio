@@ -11,7 +11,6 @@ const Contato = () => {
 
       <Navbar />  
       <Contitle />
-      <div>contato</div>
       <Painel />
       <Footer />
 
