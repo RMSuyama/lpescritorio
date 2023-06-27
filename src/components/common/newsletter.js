@@ -11,8 +11,8 @@ const Newsletter = () => {
             <label htmlFor="exampleFormControlTextarea1" className="form-label">Nome</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
         <div className="mb-2">
-            <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+            <label htmlFor="exampleFormControlInput1" className="form-label">Endereço de e-mail</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com"></input>
         </div>
        </div>
         <button type="button" className="btn btn-outline-secondary">Inscrever</button>

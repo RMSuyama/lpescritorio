@@ -2,3 +2,26 @@
     padding: 2vw;
 
 }
+
+.card-text{
+
+    font-family: "Spectral", serif;     
+}
+
+.card-title{
+
+    font-family: "Spectral", serif;     
+    font-weight: bold;
+}
+
+.text-body-secondary{
+
+    font-family: "Spectral", serif;     
+
+}
+
+#lermais{
+
+    font-family: "Spectral", serif;     
+
+}

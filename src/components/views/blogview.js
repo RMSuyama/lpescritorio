@@ -15,14 +15,14 @@ const Blogview = () => {
       content: "Neste post, abordaremos os principais aspectos do direito empresarial, incluindo questões relacionadas à constituição de empresas, responsabilidade dos sócios e contratos comerciais.",
       updated: "Last updated 5 hours ago",
       image: img1,
-      link: '#link1', 
+      link: 'https://github.com/RMSuyama/lpescritorio', 
     },
     {
       title: "Principais cláusulas em contratos comerciais",
       content: "Neste artigo, destacaremos as cláusulas mais importantes a serem consideradas ao elaborar contratos comerciais, fornecendo insights sobre a redação adequada e as proteções legais necessárias.",
       updated: "Last updated 1 day ago",
       image: img2,
-      link: '#link1', 
+      link: '#https://github.com/RMSuyama/lpescritorio', 
     },
     {
       title: "Cobrança societária: procedimentos e melhores práticas",
@@ -68,11 +68,9 @@ const Blogview = () => {
               <small className="text-body-secondary">{post.updated}</small>
 
             </div>
-              <a href={post.link} className="btn btn-primary">
-                Ler mais
-              </a>
+            <button href={post.link} type="button" className="btn btn-outline-secondary">Ver mais</button>
 
-          </div>
+           </div>
         </div>
       ))}
     </div>

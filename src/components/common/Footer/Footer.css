@@ -5,18 +5,8 @@
     color: #000000;
   }
   
-  .logo-img {
-    width: 5vw;
-    height: auto;
-    margin-bottom: 10px;
-    padding-top: 2vw;
-  }
+
   
-  .tagline {
-    font-size: 14px;
-    opacity: 0.8;
-    margin-bottom: 20px;
-  }
   
   .footer-heading {
     padding-top: 2vw;
@@ -47,3 +37,14 @@
     
 }
   
+#nome{
+
+  padding-top: 3vw;
+
+}
+
+.tagline {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}

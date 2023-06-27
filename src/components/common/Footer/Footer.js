@@ -15,10 +15,8 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <div className="logo">
-              <img src={mala} alt="Manzo & Suyama" className="logo-img" />
-            </div>
-            <p className="tagline">Advocacia e Consultoria Jurídica</p>
+            <h4 id="nome" >SUYAMA & MANZO</h4>
+            <h4 className="tagline">Advocacia e Consultoria Jurídica</h4>
           </div>
           <div className="col-md-3">
             <h4 className="footer-heading">Links</h4>

@@ -14,7 +14,7 @@ const Vagas = () => {
         <div className="card-body">
           <h5 className="card-title">Oportunidades de Carreira</h5>
           <p className="card-text">Confira as vagas disponíveis em nosso escritório e envie seu currículo para análise.</p>
-          <a href="" className="btn btn-primary">Ver Vagas</a>
+          <button type="button" className="btn btn-outline-secondary">Ver vagas</button>
         </div>
       </div>
       <Newsletter />
