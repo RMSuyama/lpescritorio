@@ -5,7 +5,7 @@ import facebookLogo from '../../../static/img/logos/face.svg';
 import linkedinLogo from '../../../static/img/logos/linked.svg';
 import emailLogo from '../../../static/img/logos/email.svg';
 import whatsappLogo from '../../../static/img/logos/whats.svg';
-import logo from '../../../static/img/logos/logo sm.jpg';
+import logo from '../../../static/img/logos/logosm.png';
 
 
 
