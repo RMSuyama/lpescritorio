@@ -44,16 +44,40 @@
   margin-right: 10px;
 }
 
-#logo{
+#logo {
   padding-bottom: 0vw;
   width: 10vw;
 }
 
-#nome{
-  font-family: spectral, cursive;
+#nome {
+  font-family: 'Spectral', cursive;
   font-weight: bold;
 }
-.tagline{
-  font-family: spectral, cursive;
+
+.tagline {
+  font-family: 'Spectral', cursive;
   font-size: medium;
+}
+
+@media (max-width: 767px) {
+  .footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+.col-md-3{
+  padding: 3vw;
 }

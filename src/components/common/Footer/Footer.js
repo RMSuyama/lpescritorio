@@ -21,15 +21,6 @@ const Footer = () => {
             <h4 className="tagline">Advocacia e Consultoria Jurídica</h4>
           </div>
           <div className="col-md-3 col-sm-6">
-            <h4 className="footer-heading">Links</h4>
-            <ul className="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/services">Serviços</a></li>
-              <li><a href="/about">Sobre Nós</a></li>
-              <li><a href="/contact">Contato</a></li>
-            </ul>
-          </div>
-          <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Redes Sociais</h4>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <img src={instagramLogo} alt="Instagram" className="social-icon" />

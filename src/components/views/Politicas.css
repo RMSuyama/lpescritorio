@@ -4,7 +4,7 @@
   
   .card-body {
     text-align: justify;
-    font-family: 'Spectral', cursive;
+    font-family: 'Spectral';
   }
   
   .policy-heading {
@@ -18,7 +18,7 @@
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-family: 'Spectral', cursive;
+    font-family: 'Spectral';
     font-weight: bold;
 
   }
@@ -40,7 +40,7 @@
   
   .policy-heading {
     text-align: center;
-    font-family: 'Spectral', cursive;
+    font-family: 'Spectral';
     font-weight: bold;
   }
   
