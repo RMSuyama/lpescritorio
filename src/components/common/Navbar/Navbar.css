@@ -1,11 +1,25 @@
 .navbar {
     font-family: 'Spectral', serif;
     padding-left: 1vw;
-    margin-top: 1vw;
+
 
   }
 
-  .img{
-    width: 10vw;
-    margin-top: -20px;
+  .navbar-nav{
+    padding-left: 4%;
   }
+
+  #nome {
+    font-family: 'Spectral';
+    font-weight: bold;
+    padding-top: 1vw;
+    text-align: center;
+  }
+  
+  .tagline {
+    font-family: 'Spectral';
+    font-size: medium;
+    text-align: center;
+  }
+
+ 

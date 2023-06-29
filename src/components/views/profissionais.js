@@ -15,7 +15,7 @@ const ProfissionaisL = () => {
             <h2 className="card-title">Rafael Moreira Suyama</h2>
               <h5 className="card-title">Biografia</h5>
               <p className="card-text">
-                Advogado OAB/SP nº 441.474 <br/>
+                Advogado OAB/SP nº 484.261 <br/>
                 Bacharel em Direito – Centro Universitário do Vale do Ribeira- UNIVR/SP<br/>
                 Pós-Graduando em Controladoria Jurídica – LEGALE.
                 </p>

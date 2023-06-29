@@ -29,7 +29,7 @@ const Painel1 = () => {
       <img src={Bg} className="card-img" alt="..." />
       <div className="card-img-overlay">
         <h5 className="card-title" id="painel1-title" style={{ opacity: textOpacity }}>SUYAMA & MANZO</h5>
-        <p className="card-text" id="painel1-text" style={{ opacity: textOpacity }}>Advocacia e Consultoria Jurídica</p>
+        <p className="card-text" id="painel1-text" style={{ opacity: textOpacity }}>ADVOGADOS ASSOCIADOS</p>
       </div>
       
     </div>

@@ -4,7 +4,7 @@ import '../views/Politicas.css';
 const PoliticaDados = () => {
   return (
     <div id="main-card" className="card">
-      <h2 id="policy-heading" className="policy-heading">Política de Dados</h2>
+      {/* <h2 id="policy-heading" className="policy-heading">Política de Dados</h2> */}
       <div className="card-body">
         <h4 className="paragraph-title">Visão geral</h4>
         <p className="card-text">

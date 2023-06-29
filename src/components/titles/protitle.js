@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import '../titles/protitle.css';
-import Bg from '../../static/img/SL-092619-23740-28.jpg';
 
 const Protitle = () => {
   const [textOpacity, setTextOpacity] = useState(1);
@@ -26,10 +25,11 @@ const Protitle = () => {
 
   return (
     <div className="card text-bg-dark">
-      <img src={Bg} className="card-img" alt="..." />
-      <div className="card-img-overlay">
-        <h5 className="card-title" id="painel1-title" style={{ opacity: textOpacity }}>Profissionais</h5>
+ 
+      <div>
+        <h5 style={{ fontFamily: 'Spectral, sans-serif', textAlign: 'center', fontSize: '3vw', padding: '6vw', opacity: textOpacity }}>Profissionais</h5>
       </div>
+
       
     </div>
   );

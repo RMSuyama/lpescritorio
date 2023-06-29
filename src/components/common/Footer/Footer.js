@@ -5,7 +5,7 @@ import facebookLogo from '../../../static/img/logos/face.svg';
 import linkedinLogo from '../../../static/img/logos/linked.svg';
 import emailLogo from '../../../static/img/logos/email.svg';
 import whatsappLogo from '../../../static/img/logos/whats.svg';
-import logo from '../../../static/img/logos/logosm.png';
+// import logo from '../../../static/img/logos/logosm.png';
 
 
 
@@ -15,10 +15,11 @@ const Footer = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-3 col-sm-6">
-          <a className="navbar-brand" href="/"> <img id="logo" src={logo} className="img" alt="..." />
-          </a>
+          <a className="navbar-brand" href="/">
+             {/* <img id="logo" src={logo} className="img" alt="..." /> */}
+     
             <h4 id="nome" >SUYAMA & MANZO</h4>
-            <h4 className="tagline">Advocacia e Consultoria Jurídica</h4>
+            <h4 className="tagline">ADVOGADOS ASSOCIADOS</h4>     </a>
           </div>
           <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Redes Sociais</h4>

@@ -12,7 +12,7 @@ const Vagas = () => {
       <Vatitle />
       <div id='vagaspad' className="card text-center">
         <div className="card-body">
-          <h5 className="card-title">Oportunidades de Carreira</h5>
+          {/* <h5 className="card-title">Oportunidades de Carreira</h5> */}
           <p className="card-text">Confira as vagas disponíveis em nosso escritório e envie seu currículo para análise.</p>
           <button type="button" className="btn btn-outline-secondary">Ver vagas</button>
         </div>

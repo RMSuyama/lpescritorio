@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../titles/vatitle.css';
-import Bg from '../../static/img/SL-092619-23740-28.jpg';
+
 
 const Vatitle = () => {
   const [textOpacity, setTextOpacity] = useState(1);
@@ -26,11 +26,12 @@ const Vatitle = () => {
 
   return (
     <div className="card text-bg-dark">
-      <img src={Bg} className="card-img" alt="..." />
-      <div className="card-img-overlay">
-        <h5 className="card-title" id="painel1-title" style={{ opacity: textOpacity }}>Vagas</h5>
+ 
+      <div>
+        <h5 style={{ fontFamily: 'Spectral, sans-serif', textAlign: 'center', fontSize: '3vw', padding: '6vw', opacity: textOpacity}}>Oportunidades de Carreira</h5>
       </div>
-      
+
+
     </div>
   );
 };

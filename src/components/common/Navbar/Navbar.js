@@ -2,16 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Navbar/Navbar.css';
-import logo from '../../../static/img/logos/logosm.png';
+// import logo from '../../../static/img/logos/logosm.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <div>
-         <a className="navbar-brand" href="/"> <img src={logo} className="img" alt="..." />
-          </a>
-        </div>
+
+         <a className="navbar-brand" href="/"> 
+         {/* <img src={logo} className="img" alt="..." /> */}
+         <h4 id="nome" >SUYAMA & MANZO</h4>
+            <h4 className="tagline">ADVOGADOS ASSOCIADOS</h4> 
+         </a>
+
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
