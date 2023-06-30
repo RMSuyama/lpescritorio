@@ -18,8 +18,8 @@ const Footer = () => {
           <a className="navbar-brand" href="/">
              {/* <img id="logo" src={logo} className="img" alt="..." /> */}
      
-            <h4 id="nome" >SUYAMA & MANZO</h4>
-            <h4 className="tagline">ADVOGADOS ASSOCIADOS</h4>     </a>
+            <h4 className="display-8" id="nome" >SUYAMA & MANZO</h4>
+            <h4 className="display-9" id="tagline">ADVOGADOS ASSOCIADOS</h4>     </a>
           </div>
           <div className="col-md-3 col-sm-6">
             <h4 className="footer-heading">Redes Sociais</h4>

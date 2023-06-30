@@ -30,7 +30,7 @@ const AreasAtuacao = () => {
             <div className="card-body">
               <h5 className="card-title">Cobrança Judicial e Extrajudicial</h5>
               <p className="card-text">
-                Representação e acompanhamento de processos de cobrança, buscando soluções eficientes para a recuperação de créditos.
+                Representação e acompanhamento de processos de cobrança, incluindo cobranças extrajudiciais e judiciais, buscando soluções eficientes para a recuperação de créditos.
               </p>
             </div>
           </div>

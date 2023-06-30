@@ -11,8 +11,9 @@ const Navbar = () => {
 
          <a className="navbar-brand" href="/"> 
          {/* <img src={logo} className="img" alt="..." /> */}
-         <h4 id="nome" >SUYAMA & MANZO</h4>
-            <h4 className="tagline">ADVOGADOS ASSOCIADOS</h4> 
+         
+         <h4 className="display-8" id="nome" >SUYAMA & MANZO</h4>
+            <h4 className="display-9" id="tagline">ADVOGADOS ASSOCIADOS</h4> 
          </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

@@ -54,9 +54,9 @@
   font-weight: bold;
 }
 
-.tagline {
+#tagline {
   font-family: 'Spectral';
-  font-size: medium;
+
 }
 
 @media (max-width: 767px) {

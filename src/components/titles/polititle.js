@@ -27,7 +27,7 @@ const Contitle = () => {
   return (
     <div className="card text-bg-dark">
       <div>
-        <h5 style={{ fontFamily: 'Spectral, sans-serif', textAlign: 'center', fontSize: '3vw', padding: '6vw', opacity: textOpacity }}>Política de Dados</h5>
+        <h5 className="display-6" style={{ fontFamily: 'Spectral, sans-serif', textAlign: 'center', padding: '6vw', opacity: textOpacity }}>Política de Dados</h5>
       </div>
      
     </div>
