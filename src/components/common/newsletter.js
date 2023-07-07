@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { firestore } from '../../config/firebase';
 import ReCAPTCHA from 'react-google-recaptcha';
 
+
 // Importe o objeto firebaseConfig do arquivo config/firebase
 import { firebaseConfig } from '../../config/firebase';
 
